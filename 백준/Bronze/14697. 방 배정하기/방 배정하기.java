@@ -13,9 +13,9 @@ public class Main {
 		int result = 0;
 		
 		//A*a + B*b + C*c = N
-		for(int a = 0; a < N/A; a++) {
-			for(int b = 0; b < N/B; b++) {
-				for(int c = 0; c < N/C; c++) {
+		for(int a = 0; a < N/A + 1; a++) {
+			for(int b = 0; b < N/B + 1; b++) {
+				for(int c = 0; c < N/C + 1; c++) {
 					if(A*a + B*b + C*c == N) {
 						result = 1;
 						break;
